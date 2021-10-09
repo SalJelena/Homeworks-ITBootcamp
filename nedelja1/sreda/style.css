@@ -1,0 +1,57 @@
+nav {
+    text-align: center;
+    position: relative;
+}
+
+h1 .naslov {
+    text-align: center;
+}
+
+ul li {
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+}
+
+ul li :hover {
+    color: red;
+}
+
+aside {
+  float: left;
+  
+}
+
+.span1{
+    color: brown;
+
+}
+
+.slika1 {
+    height: 400px;
+}
+
+
+.slika2 {
+    width: 95%;
+    height: 70%;
+}
+
+main {
+    position: relative;
+    margin-left: 250px;
+    margin-right: 180px;;
+}
+
+
+form {
+    border: solid black 2px;
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    color: red;
+}
+

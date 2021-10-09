@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background: pink;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Rampart One', cursive;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+
+input {
+    
+    margin-right: 0;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    font-family:'Nunito', sans-serif;
+}
+
+
+
+#inputText{
+    width: 350px;
+}
+
+#inputText:focus {
+    background: white;
+    border: 2px solid #642B73;
+    outline: none;
+  }
+
+.add-btn {
+    
+    background-color: #bbb;
+    color: #FFF;
+}
+
+
+
+
+.div-item {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background-color: #eee;
+    font-size: 22px;
+    list-style-type: none;
+
+}
+
+.div-item:nth-child(odd){
+    background-color: #b2bec3;
+}
+
+.div-item:hover {
+    background: #ddd;
+}
+
+
+.checkbox-inp{
+    position: absolute;
+    left: 15%;
+    width: 50px;
+    height: 20px;
+    background-color:#FFF;
+    
+
+}
+
+
+.checked-txt {
+    color: #8f8787;
+    text-decoration: line-through;
+}
+
+.btn-delete {
+    background-color: #323643;
+    border: none;
+    color:  #f7f7f7;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    font-size: 13px;
+    border-radius: 4px;
+
+}
+
+.btn-delete:hover{
+    transform: scale(1.1)
+}
+
+
+
+#najveci{
+    width: 50%;
+    margin: auto;
+    border: 2px solid grey;
+    padding: 10px;
+}

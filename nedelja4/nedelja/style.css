@@ -1,0 +1,46 @@
+body {
+    text-align: left;
+    
+}
+
+
+
+
+table, .table-row-data {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 50%;
+    
+}
+
+table, th, td, .table-row-data {
+    border: 1px solid black;
+    
+    
+}
+
+  th, td, .table-row-data  {
+    padding: 15px;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  table {
+    border-spacing: 5px;
+  }
+
+
+
+  .div-sabiranje {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      width: 50%;
+      margin: 5% 0%;
+      border: solid 1px;
+      padding: 15px;
+      
+  }
+
+input {
+    margin: 15px;
+}

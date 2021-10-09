@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+
+
+
+* {
+    font-family:'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container { 
+    text-align: center;
+    margin: 0 30px;
+    padding: 10px;
+    width: 800px;
+}
+
+.table-data{
+    padding: 5px;
+    border-collapse: collapse;
+    margin-bottom: 2px;
+}
+
+th {
+    background-color: #142d4c;
+    color: #ececec;
+    padding: 10px;
+}
+
+.tbody .table-row{
+    background-color: #ececec;
+   
+}
+
+
+.tbody .table-row:nth-child(odd){
+    background-color: #eaf6f6;
+    
+}
+
+.tbody td{
+    padding: 10px;
+}
+.tbody {
+    border-collapse: collapse;
+}
+
+.title-item {
+    font-weight: bold;
+    
+}
+
+.tableSUM {
+    border-collapse: collapse;
+    padding: 5px;
+    margin-top: 2px;
+    text-align: right;
+    width: 100%;
+}
+
+
+.tableSUM td {
+ padding: 5px;
+ background-color: #c1c0b9;
+ font-weight:bold;
+}
+
